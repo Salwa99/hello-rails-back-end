@@ -14,6 +14,6 @@ greetings = [
   'Salutations!'
 ]
 
-greetings.each do |greeting|
-  Greeting.create(text: greeting)
+greetings.each do |message|
+  Greeting.create!(message: message)
 end
