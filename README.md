@@ -3,6 +3,7 @@
 ## 📗 Table of Contents
 
 - [Greeting App Backend](#greeting-app-backend)
+  - [Frontend Repository](#frontend-repository)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
@@ -23,6 +24,10 @@
 # Greeting App Backend<a name="about-project"></a>
 
 >**This app is built using Rails, it generate random greeting feetched from the api**.<a name="built-with"></a>
+
+## Frontend Repository
+
+You can find the frontend repository at [hello-react-front-end](https://github.com/Salwa99/hello-react-front-end).
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -46,6 +51,7 @@
 
 - **Generate random greeting**
 - **Used Rails for backend**
+- **Endpoint /random_greeting** 
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
