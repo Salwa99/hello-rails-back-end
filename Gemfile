@@ -5,8 +5,13 @@ ruby "3.2.2"
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+gem 'rack-cors', :require => 'rack/cors'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.5"
+
+# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+gem 'sprockets-rails'
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
